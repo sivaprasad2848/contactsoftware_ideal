@@ -1,27 +1,14 @@
-contact=[]
+from helper import *
 y=0
 while y==0:
-    print("Menu")
-    print("1->For insert new contact")
-    print("2->For Display contact")
-    print("3->For Delete Contact")
-    print("4->For Update")
-    opt=int(input("Enter Your Option"))
+    opt=menu()
     if(opt==1):
-        name=input("Enter Name")
-        email=input("Enter Email")
-        mobile=input("Enter Mobile")
-        contact.append((name,email,mobile))
+       create_contact() 
     if(opt==2):
-        print(contact)
+       display_contact() 
     if(opt==3):
-        i=int(input("Enter the index you want to remove"))
-        contact.pop(i)
+       delete_contact() 
     if(opt==4):
-        i=int(input("Enter the index you want to update"))
-        name=input("Enter Name")
-        email=input("Enter Email")
-        mobile=input("Enter Mobile")
-        contact[i]=(name,email,mobile)
+       update_contact() 
     y=int(input("Do you want to continue?Press 0 for yes"))
 
