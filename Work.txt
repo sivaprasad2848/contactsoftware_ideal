@@ -1,0 +1,66 @@
+Smart Student Management System (CLI-Based)
+-------------------------------------------
+You are developing a system for a training institute to manage 
+student details.
+Core Features (Mandatory)
+1)Add Student
+	Input:
+	1.a)ID
+	1.b)Name
+	1.c)Marks (3 subjects)
+	
+	Store in file (students.txt)
+
+2)View All Students
+	Display all records in readable format
+3)Search Student
+	Search by ID
+	Display full details
+4)Calculate Result
+	Total
+	Average
+	Grade:
+		A: ≥ 85
+		B: 70–84
+		C: 50–69
+		Fail: < 50
+5)Delete Student
+	Remove record from file
+
+Code Format (With Must Include Functionalities)
+-----------------------------------------------
+def add_student():
+    pass
+
+def view_students():
+    pass
+
+def search_student():
+    pass
+
+def calculate_grade(marks):
+    pass
+
+def delete_student():
+    pass
+
+def main():
+    while True:
+        print("1. Add Student")
+        print("2. View Students")
+        print("3. Search Student")
+        print("4. Delete Student")
+        print("5. Exit")
+
+Time Limit: 4–6 hours (or 1 day)
+
+| Criteria                               | Marks |
+| -------------------------------------- | ----- |
+| Functionality (All features working)   | 30    |
+| Code Structure (Functions, modularity) | 15    |
+| File Handling (read/write correctness) | 15    |
+| Logic (conditions, loops usage)        | 15    |
+| Code Readability                       | 10    |
+| Error Handling                         | 10    |
+| Bonus Features                         | 5     |
+
